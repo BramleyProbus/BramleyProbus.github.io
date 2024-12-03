@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: faukner-room.jpg
+  image_fullwidth: header-blank.jpg
 
 widget1:
   title: "Probus?"

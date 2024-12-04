@@ -45,7 +45,7 @@ You can show metadata, such as categories, tags and a date at the end of the pag
 
 
 ### Page Full Width
-If you want full control of styling a page, then use the [page fullwidth template]({{ site.url }}{{ site.baseurl }}/design/page-fullwidth/). To set up a grid, just use the [foundation grid system](http://foundation.zurb.com/docs/components/grid.html).
+If you want full control of styling a page, then use the [page fullwidth template]({{ site.url }}{{ site.baseurl }}/design/page-fullwidth/). To set up a grid, just use the [foundation grid system](https://foundation.zurb.com/docs/components/grid.html).
 
 use in front matter via: `layout: page-fullwidth`
 
@@ -103,7 +103,7 @@ By default comments are turned off. You can customize the default behaviour in `
 
 ## Responsive Videos
 
-With foundation, responsive videos are easy. [More ›](http://foundation.zurb.com/docs/components/flex_video.html)
+With foundation, responsive videos are easy. [More ›](https://foundation.zurb.com/docs/components/flex_video.html)
 
 <div class="flex-video">
         <iframe width="1280" height="720" src="//www.youtube.com/embed/WoHxoz_0ykI" frameborder="0" allowfullscreen></iframe>
@@ -160,7 +160,7 @@ Sometimes, you want to give credit to the creator of your images, maybe with a l
 image:
     title: header_image.jpg
     caption: Image by Phlow
-    caption_url: "http://phlow.de/"
+    caption_url: "https://phlow.de/"
 ~~~
 
 ### Define all images for an article
@@ -171,7 +171,7 @@ image:
     thumb: thumbnail_image.jpg
     homepage: header_homepage_13.jpg
     caption: Image by Phlow
-    caption_url: "http://phlow.de/"
+    caption_url: "https://phlow.de/"
 ~~~
 
 
@@ -244,7 +244,7 @@ This include creates a next/previous link to a post of the same category using t
 
 ### improve_content
 
-If your content is on Jekyll, you can use this include to automatically generate a »Edit on GitHub Link« to give people a possibility to improve your content. Got the idea from [Ben Balters Blog](http://ben.balter.com/).
+If your content is on Jekyll, you can use this include to automatically generate a »Edit on GitHub Link« to give people a possibility to improve your content. Got the idea from [Ben Balters Blog](https://ben.balter.com/).
 
 ~~~
 {% raw %}{% include _improve_content.html %}{% endraw %}
@@ -281,10 +281,10 @@ This include lets you easily display an alert. To use the include, no `.html` en
 You can even use `<html>`-tags inside the alert. Beware: Use " and ' properly.
 
 ~~~
-{% raw %}{% include alert info='<em>Feeling Responsive</em> is listed on <a href="http://jekyllthemes.org/">http://jekyllthemes.org</a>' %}{% endraw %}
+{% raw %}{% include alert info='<em>Feeling Responsive</em> is listed on <a href="https://jekyllthemes.org/">https://jekyllthemes.org</a>' %}{% endraw %}
 ~~~
 
-{% include alert info='<em>Feeling Responsive</em> is listed on <a href="http://jekyllthemes.org/">http://jekyllthemes.org</a>' %}
+{% include alert info='<em>Feeling Responsive</em> is listed on <a href="https://jekyllthemes.org/">https://jekyllthemes.org</a>' %}
 
 <small markdown="1">[Up to table of contents](#toc)</small>
 {: .text-right }
@@ -312,9 +312,9 @@ I only added one other javascript-module: [`backstretch`][3] by Scott Robbin. Th
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
 
- [1]: http://kramdown.gettalong.org/converter/html.html#toc
+ [1]: https://kramdown.gettalong.org/converter/html.html#toc
  [2]: {{ site.url }}/blog/
- [3]: http://srobbin.com/jquery-plugins/backstretch/
+ [3]: https://srobbin.com/jquery-plugins/backstretch/
  [4]: #
  [5]: #
  [6]: #

@@ -16,7 +16,7 @@ widget1:
 widget2:
   title: "Where are we?"
   url: 
-  image: 
+  image: map.jpg
   text: 'We are based in Bramley, just South of Guildford in Surrey.  Our membership is predominantly from Bramley, Wonersh, Shamley Green, Shalford, and Grafham; although some members come from much further afield.  '
 widget3:
   title: "Lunches"
